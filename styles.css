@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+html{
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+body{
+    display: block;
+}
+
+#navbar{
+    min-width: 290px;
+    width: 300px;
+    top: 0;
+    left: 0;
+    border-right: solid #99a2a2;
+    position: fixed;
+    height: 100%;
+}
+nav{
+    display: block;
+}
+
+nav header{
+    margin: 10px;
+    font-size: 1.8em;
+    font-weight: thin;
+    color: black;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+}
+
+#main-doc{
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
